@@ -108,7 +108,7 @@ h1{
 #wrap{
   left: 50%; 
   width: 50em;
-  margin-left:25em;
+  margin-left:-25em;
 }
 .myColor2{
      background-color:#EBF5FB;
