@@ -8,8 +8,7 @@ h1{
 }
 body{
     background-color:#85C1E9;
-    line-height:1.5em;
-    
+    line-height:1.5em;   
 }
 
 #wrap{
@@ -20,35 +19,35 @@ body{
 }
 
 #mainSection{
-    padding-left:1.875em;
+  padding-left:1.875em;
 }
 
 #page{
-    text-align:center;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-size:1.875em;
+  text-align:center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:1.875em;
 
 }
        
 nav{
-       text-align:center;
-       font-size:1.5625em;
-       padding:0.625em;
+  text-align:center;
+  font-size:1.5625em;
+  padding:0.625em;
    
 }
 
-ul {
-    list-style-position: inside;
+ul{
+  list-style-position: inside;
 }
 .myColor{
-    background-color:#AED6F1;
-         border-style:solid;
-         border-width:0.03125em;
-         border-color:#2E86C1;
+  background-color:#AED6F1;
+  border-style:solid;
+  border-width:0.03125em;
+  border-color:#2E86C1;
 }
 
 .myColor2{
-     background-color:#EBF5FB;
+  background-color:#EBF5FB;
 }
 
 footer{
@@ -71,19 +70,19 @@ article{
 }
 
 .gallery{
-     width: 97.5%;
-    text-align: center;
+  width: 97.5%;
+  text-align: center;
 }
 .allfig {
-    padding: 0.9375em;
-    text-align: center;
-    font-size:1.2685em;
-    font-family:cursive, sans-serif;
+  padding: 0.9375em;
+  text-align: center;
+  font-size:1.2685em;
+  font-family:cursive, sans-serif;
 }
 
 
 @media screen and (min-width: 72.1em){
-  #primary{
+#primary{
   float:right;
   width:54%;
 }
@@ -94,16 +93,13 @@ article{
   padding-left: 1em;
 }
   footer {
-    clear: both;
+  clear: both;
   }
 }
-
-
-@media screen and (min-width: 40em) and (max-width: 72em){
+@media screen and (min-width: 44.00001em) and (max-width: 72em){
 h1{
-    text-align:left;
-    padding-left:0.625em;
-
+  text-align:left;
+  padding-left:0.625em;
 }
 #wrap{
   left: 50%; 
@@ -111,35 +107,30 @@ h1{
   margin-left:-25em;
 }
 .myColor2{
-     background-color:#EBF5FB;
-     display:block;
+  background-color:#EBF5FB;
+  display:block;
 }
 #mainSection{
-    padding-left:0.938em;
+  padding-left:0.938em;
 }
 
 #page{
-    text-align:center;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-size:1.250em;
-
+  text-align:center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:1.250em;
 }
-       
 nav{
-       text-align:center;
-       font-size:1.250em;
-       padding:0.625em;
-   
+  text-align:center;
+  font-size:1.250em;
+  padding:0.625em; 
 }
 ul {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 img{
   height:100%;
   width:100%;
 }
-
-
 article{
   font-size:1.250em;
   padding-right:1.875em;
@@ -149,22 +140,19 @@ article{
   float:right;
   width:54%;
 }
-
 #secondary{
   float:left;
   width:36%;
 }
-  footer {
-    clear: both;
+footer {
+  clear: both;
   }
-
 }
-@media screen and (min-width: 0em) and (max-width: 39.9em){
+@media screen and (min-width: 0em) and (max-width: 44em){
   h1{
-    text-align:left;
-    padding-left:0.625em;
-    font-size: 1.563em;
-
+  text-align:left;
+  padding-left:0.625em;
+  font-size: 1.563em;
 }
 #wrap{
   left: 50%; 
@@ -172,43 +160,51 @@ article{
   margin-left:-10.938em;
 }
 .myColor2{
-     background-color:#EBF5FB;
-     display:block;
+  background-color:#EBF5FB;
+  display:block;
 }
 #mainSection{
-    padding-left:0.938em;
+  padding-left:0.938em;
 }
-
 #page{
-    text-align:center;
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-size:1.250em;
-
+  text-align:center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:1.250em;
 }
-       
 nav{
-       text-align:center;
-       font-size:0.938em;
-       padding:0.625em;
-   
+  text-align:center;
+  font-size:0.938em;
+  padding:0.625em; 
 }
-
 ul {
-    list-style-position: inside;
-    padding-left: 0.313em;
+  list-style-position: inside;
+  padding-left: 0.313em;
+  padding-right: 0.313em;
+  padding-bottom:0.313em;
 }
-
-  #primary {
+.details{
+  padding-left:1.23em;
+}
+#primary {
   display: block;
   width: auto;
-    padding-left:1em;
-  }
+  padding-left:1em;
+}
 
-  #secondary {
-    width: 83%;
-    text-align: center;
-    padding-bottom:1.563em;
-    padding-left:1.15em;
-  }
+#secondary {
+  width: 83%;
+  text-align: center;
+  padding-bottom:1.563em;
+  padding-left:1.15em;
+}
+.gallery{
+  width:95%;
+  text-align:center;
+}
+.allfig {
+  padding: 0.9375em;
+  text-align: center;
+  font-size:1em;
+  font-family:cursive, sans-serif;
 }
 }
