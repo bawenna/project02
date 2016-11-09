@@ -1,80 +1,100 @@
-head {
-  display: none;
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable*/
+
+/* ===== BASE STYLES ===== */
+
+html {
+  font-size: 1.125em;  /*18 / 16 */
+  line-height: 1.333em; /*24 / 18 */
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  padding:1.1em 0.55em; /* 20/18 */
 }
+
 h1 {
-  text-align: left;
-  padding: 1.25em;
+  font-size: 1.9375em; /* 34.875 / 18 */  text-align: left;
+  padding: 1.1em;
+  
 }
 body {
   background-color: #85C1E9;
-  line-height: 1.5em;
+}
+
+#information{
+  padding-left: 1.1em;
+}
+
+li{
+  list-style-type: disc;
+  list-style-position: inside;
 }
 #wrap {
-  position: absolute;
-
-  left: 50%;
-  width: 75em;
-  margin-left: -37.5em;
-}
-#mainSection {
-  padding-left: 1.875em;
+  width: 100%;
 }
 #page {
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.875em;
+  padding:1.1em 0.55em;
 }
 nav {
   text-align: center;
-  font-size: 1.5625em;
-  padding: 0.625em;
+  font-size: 1.5625em; /* 28.125 / 18 */
+  padding: 0.55em;
 
 }
 
 ul {
   list-style-position: inside;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
+    padding-bottom: 0.55em;
 }
+
 .myColor {
   background-color: #AED6F1;
   border-style: solid;
-  border-width: 0.03125em;
+  border-width: 0.03125em; /*0.5625 / 18 */
   border-color: #2E86C1;
 }
-
 .myColor2 {
   background-color: #EBF5FB;
 }
-
 footer {
   text-align: center;
-  padding: 0.625em;
+  padding: 1.1em;
   clear: both;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-  padding-top: 1.5625em;
-}
-
-
 article {
-  font-size: 1.25em;
-  padding-right: 1.875em;
-  padding-bottom: 4.375em;
+  font-size:1.25em; /* 22.5 / 18 */
+  padding:1.1em;
 }
 
-.gallery {
-  width: 97.5%;
-  text-align: center;
-}
 .allfig {
-  padding: 0.9375em;
+  padding: 1.1em;
   text-align: center;
-  font-size: 1.2685em;
+  font-size: 1.25em;
   font-family: cursive, sans-serif;
 }
 
+h3{
+  font-size: 1.4444em; /* 26 / 18 */
+   font-weight: bold;
+}
+.details{
+  padding-left:2.2em;
+  padding-bottom: 0.55em;
+}
+
+h4{
+  font-size:1.222em;
+  font-style: italic;
+}
 
 @media screen and (min-width: 72.1em) {
   #primary {
@@ -83,86 +103,48 @@ article {
   }
 
   #secondary {
+    padding-top: 1.65em; /* 1.1+1.1-0.55 */
     float: left;
+    padding-left: 2.2em;
     width: 36%;
-    padding-left: 1em;
+  }
+  #secondary img{
+    width:100%;
   }
   footer {
     clear: both;
   }
+  #primarySec {
+  display: inline-block;
+  vertical-align: top;
+  width:50%;
+  padding-left: 6.5em;
+  }
+
+  #secondarySec {
+  display: inline-block;
+  width: 30%;
+  padding-left: 5.5em;
+  padding-bottom:0.55em;
+  }
+  .gallery{
+  text-align: center;
 }
-@media screen and (min-width: 44.00001em) and (max-width: 72em) {
+}
+
+@media screen and (min-width: 0.1em) and (max-width: 72.0em) {
   h1 {
     text-align: left;
-    padding-left: 0.625em;
+    padding-left: 0.55em;
+    font-size: 1.625em;
   }
   #wrap {
-    left: 50%;
-
-    width: 50em;
-    margin-left: -25em;
-  }
-  .myColor2 {
-    background-color: #EBF5FB;
-    display: block;
-  }
-  #mainSection {
-    padding-left: 0.938em;
-  }
-
-  #page {
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 1.25em;
-  }
-  nav {
-    text-align: center;
-    font-size: 1.25em;
-    padding: 0.625em;
-
-  }
-  ul {
-    list-style-position: inside;
-  }
-  img {
-    height: 100%;
     width: 100%;
-  }
-  article {
-    font-size: 1.25em;
-    padding-right: 1.875em;
-    padding-bottom: 4.375em;
-  }
-  #primary {
-    float: right;
-    width: 54%;
-  }
-  #secondary {
-    float: left;
-    width: 36%;
-  }
-  footer {
-    clear: both;
-  }
-}
-@media screen and (min-width: 0.1em) and (max-width: 44em) {
-  h1 {
-    text-align: left;
-    padding-left: 0.625em;
-    font-size: 1.563em;
-  }
-  #wrap {
-    left: 50%;
-
-    width: 21.875em;
-    margin-left: -10.938em;
+    
   }
   .myColor2 {
     background-color: #EBF5FB;
     display: block;
-  }
-  #mainSection {
-    padding-left: 0.938em;
   }
   #page {
     text-align: center;
@@ -171,39 +153,49 @@ article {
   }
   nav {
     text-align: center;
-    font-size: 0.938em;
+    font-size: 22px;
     padding: 0.625em;
 
   }
   ul {
     list-style-position: inside;
-    padding-left: 0.313em;
-    padding-right: 0.313em;
-    padding-bottom: 0.313em;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
+    padding-bottom: 0.55em;
   }
-  .details {
-    padding-left: 1.23em;
-  }
+
   #primary {
     display: block;
     width: auto;
-    padding-left: 1em;
+    padding-left: 1.1em;
+  }
+  #secondary{
+    text-align:center;
   }
 
-  #secondary {
-    width: 83%;
-    text-align: center;
-    padding-bottom: 1.563em;
-    padding-left: 1.15em;
+  #secondary img{
+    width: 75%;
   }
-  .gallery {
-    width: 95%;
+  .gallery img{
+    width:100%;
     text-align: center;
   }
   .allfig {
-    padding: 0.9375em;
     text-align: center;
     font-size: 1em;
     font-family: cursive, sans-serif;
   }
+  h3, h4{
+  padding-left:0.55em;
+}
+#personal{
+  text-align:center;
+}
+.details{
+  padding-left:1.1em;
+  padding-bottom: 0.55em;
+}
+li{
+  padding-left:1.1em;
+}
 }
