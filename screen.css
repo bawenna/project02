@@ -12,23 +12,23 @@ html {
   font-size: 1.125em;  /*18 / 16 */
   line-height: 1.333em; /*24 / 18 */
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-  padding:1.1em 0.55em; /* 20/18 */
+  padding: 1.1em 0.55em; /* 20/18 */
 }
 
 h1 {
-  font-size: 1.9375em; /* 34.875 / 18 */  text-align: left;
+  font-size: 1.9375em; /* 34.875 / 18 */
+  text-align: left;
   padding: 1.1em;
-  
 }
 body {
   background-color: #85C1E9;
 }
 
-#information{
+#information {
   padding-left: 1.1em;
 }
 
-li{
+li {
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -39,7 +39,7 @@ li{
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.875em;
-  padding:1.1em 0.55em;
+  padding: 1.1em 0.55em;
 }
 nav {
   text-align: center;
@@ -50,9 +50,9 @@ nav {
 
 ul {
   list-style-position: inside;
-    padding-left: 0.55em;
-    padding-right: 0.55em;
-    padding-bottom: 0.55em;
+  padding-left: 0.55em;
+  padding-right: 0.55em;
+  padding-bottom: 0.55em;
 }
 
 .myColor {
@@ -71,8 +71,8 @@ footer {
 }
 
 article {
-  font-size:1.25em; /* 22.5 / 18 */
-  padding:1.1em;
+  font-size: 1.25em; /* 22.5 / 18 */
+  padding: 1.1em;
 }
 
 .allfig {
@@ -82,17 +82,17 @@ article {
   font-family: cursive, sans-serif;
 }
 
-h3{
+h3 {
   font-size: 1.4444em; /* 26 / 18 */
-   font-weight: bold;
+  font-weight: bold;
 }
-.details{
-  padding-left:2.2em;
+.details {
+  padding-left: 2.2em;
   padding-bottom: 0.55em;
 }
 
-h4{
-  font-size:1.222em;
+h4 {
+  font-size: 1.222em;
   font-style: italic;
 }
 
@@ -108,31 +108,31 @@ h4{
     padding-left: 2.2em;
     width: 36%;
   }
-  #secondary img{
-    width:100%;
+  #secondary img {
+    width: 100%;
   }
   footer {
     clear: both;
   }
   #primarySec {
-  display: inline-block;
-  vertical-align: top;
-  width:50%;
-  padding-left: 6.5em;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left: 6.5em;
   }
 
   #secondarySec {
-  display: inline-block;
-  width: 30%;
-  padding-left: 5.5em;
-  padding-bottom:0.55em;
+    display: inline-block;
+    width: 30%;
+    padding-left: 5.5em;
+    padding-bottom: 0.55em;
   }
-  .gallery{
-  text-align: center;
-}
+  .gallery {
+    text-align: center;
+  }
 }
 
-@media screen and (min-width: 0.1em) and (max-width: 72.0em) {
+@media screen and (min-width: 0.1em) and (max-width: 72em) {
   h1 {
     text-align: left;
     padding-left: 0.55em;
@@ -140,7 +140,6 @@ h4{
   }
   #wrap {
     width: 100%;
-    
   }
   .myColor2 {
     background-color: #EBF5FB;
@@ -153,7 +152,7 @@ h4{
   }
   nav {
     text-align: center;
-    font-size: 22px;
+    font-size: 1.222em;
     padding: 0.625em;
 
   }
@@ -169,33 +168,33 @@ h4{
     width: auto;
     padding-left: 1.1em;
   }
-  #secondary{
-    text-align:center;
+  #secondary {
+    text-align: center;
+  }
+  .gallery img {
+    width: 100%;
+    text-align: center;
   }
 
-  #secondary img{
+  #secondary img {
     width: 75%;
-  }
-  .gallery img{
-    width:100%;
-    text-align: center;
   }
   .allfig {
     text-align: center;
     font-size: 1em;
     font-family: cursive, sans-serif;
   }
-  h3, h4{
-  padding-left:0.55em;
-}
-#personal{
-  text-align:center;
-}
-.details{
-  padding-left:1.1em;
-  padding-bottom: 0.55em;
-}
-li{
-  padding-left:1.1em;
-}
+  h3, h4 {
+    padding-left: 0.55em;
+  }
+  #personal {
+    text-align: center;
+  }
+  .details {
+    padding-left: 1.1em;
+    padding-bottom: 0.55em;
+  }
+  li {
+    padding-left: 1.1em;
+  }
 }
