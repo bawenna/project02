@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-size: 1.125em;  /*18 / 16 */
-  line-height: 1.333em; /*24 / 18 */
+  line-height: 1.444em; /*24 / 18 */
   font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
   padding: 1.1em 0.55em; /* 20/18 */
 }
@@ -24,46 +24,33 @@ body {
   background-color: #85C1E9;
 }
 
-#information {
-  padding-left: 1.1em;
-}
-
 li {
   list-style-type: disc;
   list-style-position: inside;
 }
-#wrap {
-  width: 100%;
-}
-#page {
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 1.875em;
-  padding: 1.1em 0.55em;
-}
+
 nav {
   text-align: center;
   font-size: 1.5625em; /* 28.125 / 18 */
   padding: 0.55em;
 
 }
-
 ul {
   list-style-position: inside;
   padding-left: 0.55em;
   padding-right: 0.55em;
   padding-bottom: 0.55em;
 }
+h3 {
+  font-size: 1.4444em; /* 26 / 18 */
+  font-weight: bold;
+  padding-bottom: 0.55em;
+}
+h4 {
+  font-size: 1.222em;
+  font-style: italic;
+}
 
-.myColor {
-  background-color: #AED6F1;
-  border-style: solid;
-  border-width: 0.03125em; /*0.5625 / 18 */
-  border-color: #2E86C1;
-}
-.myColor2 {
-  background-color: #EBF5FB;
-}
 footer {
   text-align: center;
   padding: 1.1em;
@@ -74,27 +61,39 @@ article {
   font-size: 1.25em; /* 22.5 / 18 */
   padding: 1.1em;
 }
-
+/* ===== MODULAR STYLES ===== */
+#information {
+  padding-left: 1.1em;
+}
+#wrap {
+  width: 100%;
+}
+#page {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.875em;
+  padding: 1.1em 0.55em;
+}
+.myColor {
+  background-color: #AED6F1;
+  border-style: solid;
+  border-width: 0.03125em; /*0.5625 / 18 */
+  border-color: #2E86C1;
+}
+.myColor2 {
+  background-color: #EBF5FB;
+}
 .allfig {
   padding: 1.1em;
   text-align: center;
   font-size: 1.25em;
   font-family: cursive, sans-serif;
 }
-
-h3 {
-  font-size: 1.4444em; /* 26 / 18 */
-  font-weight: bold;
-}
 .details {
   padding-left: 2.2em;
   padding-bottom: 0.55em;
 }
-
-h4 {
-  font-size: 1.222em;
-  font-style: italic;
-}
+/* ===== STATE STYLES ===== */
 
 @media screen and (min-width: 72.1em) {
   #primary {
@@ -113,6 +112,7 @@ h4 {
   }
   footer {
     clear: both;
+    padding: 0.55em;
   }
   #primarySec {
     display: inline-block;
