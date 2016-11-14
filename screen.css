@@ -62,9 +62,6 @@ article {
   padding: 1.1em;
 }
 /* ===== MODULAR STYLES ===== */
-#information {
-  padding-left: 1.1em;
-}
 #wrap {
   width: 100%;
 }
@@ -87,7 +84,7 @@ article {
   padding: 1.1em;
   text-align: center;
   font-size: 1.25em;
-  font-family: cursive, sans-serif;
+  font-family: sans-serif;
 }
 .details {
   padding-left: 2.2em;
@@ -141,6 +138,17 @@ article {
     padding-left: 0.55em;
     font-size: 1.625em;
   }
+  nav {
+    text-align: center;
+    font-size: 1.222em;
+    padding: 0.625em;
+  }
+  li {
+    padding-left: 1.1em;
+  }
+  #information li{
+    padding:clear;
+  }
   #wrap {
     width: 100%;
   }
@@ -153,19 +161,6 @@ article {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 1.25em;
   }
-  nav {
-    text-align: center;
-    font-size: 1.222em;
-    padding: 0.625em;
-
-  }
-  ul {
-    list-style-position: inside;
-    padding-left: 0.55em;
-    padding-right: 0.55em;
-    padding-bottom: 0.55em;
-  }
-
   #primary {
     display: block;
     width: auto;
@@ -187,8 +182,11 @@ article {
     font-size: 1em;
     font-family: cursive, sans-serif;
   }
-  h3, h4 {
+  h3{
     padding-left: 0.55em;
+  }
+  h4{
+    padding-left:1.1em;
   }
   #personal {
     text-align: center;
@@ -196,8 +194,5 @@ article {
   .details {
     padding-left: 1.1em;
     padding-bottom: 0.55em;
-  }
-  li {
-    padding-left: 1.1em;
   }
 }
