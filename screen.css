@@ -69,12 +69,12 @@ article {
   text-align: center;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.875em;
-  padding: 1.1em 0.55em;
+  padding: 2em 0.55em;
 }
 .myColor {
   background-color: #AED6F1;
   border-style: solid;
-  border-width: 0.03125em; /*0.5625 / 18 */
+  border-width: 3em; /*0.5625 / 18 */
   border-color: #2E86C1;
 }
 .myColor2 {
