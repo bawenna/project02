@@ -3,9 +3,9 @@ $(document).ready(function() {
     var loc = $('#location').val();
     $.get(
       'https://www.zipcodeapi.com/rest/js-rTyMicsfWrUvifDkyeNHgt1EysudYy0pszcKLFZH6Udp9QJI5wqlZs0yUuMS3Niw/info.json/'+loc+'/degrees',
-    var lat = Math.round(data.lat)  
-    var lng = Math.round(data.lng)
       function (data) {
+            var lat = Math.round(data.lat);
+    var lng = Math.round(data.lng);
         $('#print').append(
           document.createTextNode(lat+lng)
         );
