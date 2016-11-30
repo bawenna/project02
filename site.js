@@ -9,7 +9,7 @@ $(document).ready(function() {
         lat = Math.round(data.lat);
         lng = Math.round(data.lng);
         $('#print').append(
-        '<p><a href="'https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=find+auto+shop+around+you&rflfq=1&rlha=0&rllag='+lat + ',' + lng +'&tbm=lcl&tbs=lf:1,lf_ui:2,lf_pqs:EAE'"</a></p>
+        '<p><a href="'https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=find+auto+shop+around+you&rflfq=1&rlha=0&rllag='+lat + ',' + lng +'&tbm=lcl&tbs=lf:1,lf_ui:2,lf_pqs:EAE'"</a></p>'
         );
       });
       event.preventDefault();
