@@ -9,7 +9,7 @@ $(document).ready(function() {
         $('#print').append(
             lat = Math.round(data.lat);
     lng = Math.round(data.lng);
-          document.createTextNode(lat+lng)
+          document.createTextNode(lat + ',' + lng)
         );
       });
       event.preventDefault();
