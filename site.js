@@ -10,7 +10,8 @@ $(document).ready(function() {
         lng = Math.round(data.lng);
         $('#print').append(
         document.createTextNode("https://www.google.com/maps/search/auto+shop/@" + lat +"," + lng +",11z/data=!3m1!4b1")
-      });
+      );
+        });
       event.preventDefault();
   });
 });
